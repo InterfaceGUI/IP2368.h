@@ -1,7 +1,7 @@
 # IP2368.h
 An Arduino library for interfacing with the IP2368 IC. Provides functionalities for reading and managing charging states, battery percentage, and more.
 
-英集芯 的 IP2368 是一個 I2C 通訊 IC。 此程式庫提供了與此 IC 的基本介面功能。 目前只實現了基本的讀取功能。
+英集芯 的 IP2368 是一個 有 I2C 通訊的充電管理IC。 此程式庫提供了與此 IC 的基本介面功能。 目前只實現了基本的讀取功能。
 
 #### 特別注意
 
