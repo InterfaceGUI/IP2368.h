@@ -6,6 +6,7 @@
 
 class IP2368 {
 public:
+  IP2368();
   void begin();
   uint8_t getBatteryPercentage();
   enum ChargeState {
@@ -26,7 +27,6 @@ public:
   bool isTypeCSinkConnected();
 
 private:
-  uint8_t _intPin;
   uint8_t readRegister(uint8_t regAddress);
 };
 
