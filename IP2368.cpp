@@ -9,7 +9,7 @@
 #define STATE_CTL2 0x33
 #define RTYPEC_STATE 0x34
 
-IP2368::IP2368() : {}
+IP2368::IP2368() {}
 
 void IP2368::begin() {
   Wire.begin();
@@ -70,4 +70,3 @@ bool IP2368::isVbusOvervoltage() {
 bool IP2368::isTypeCSinkConnected() {
   return readRegister(RTYPEC_STATE) & (1 << 7);
 }
-
